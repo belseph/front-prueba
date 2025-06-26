@@ -107,22 +107,6 @@ export const MobileInfoBanner: React.FC<MobileInfoBannerProps> = ({
                 </span>
               </div>
             </div>
-
-            {/* Estadísticas rápidas */}
-            <div className="grid grid-cols-3 gap-3 mt-6 pt-4 border-t border-white/20">
-              <div className="text-center">
-                <div className="text-white font-bold text-lg">500+</div>
-                <div className="text-white/70 text-xs">Emprendedores</div>
-              </div>
-              <div className="text-center">
-                <div className="text-white font-bold text-lg">150+</div>
-                <div className="text-white/70 text-xs">Mentores</div>
-              </div>
-              <div className="text-center">
-                <div className="text-white font-bold text-lg">80+</div>
-                <div className="text-white/70 text-xs">Startups</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
