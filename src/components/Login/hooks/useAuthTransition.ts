@@ -102,8 +102,8 @@ export const useAuthTransition = () => {
 
             setTimeout(() => {
                 setIsTransitioning(false);
-            }, 50);
-        }, 400);
+            }, 100);
+        }, 500);
     }, [resetForm]);
 
     const handleSubmit = useCallback(async (e: React.FormEvent) => {
